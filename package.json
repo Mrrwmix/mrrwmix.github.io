@@ -7,10 +7,10 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
-  "homepage": "https://mrrwmix.github.io/",
+  "homepage": "https://mrrwmix.github.io",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
