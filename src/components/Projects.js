@@ -193,6 +193,15 @@ const Projects = () => {
         },
         { title: "Source Code", link: "https://github.com/Mrrwmix/WebProwler" }
       ]
+    },
+    {
+      img: "./images/react.svg",
+      anchor: [
+        {
+          title: "Clicky Game",
+          link: "https://mrrwmix.github.io/clickygame/"
+        }
+      ]
     }
   ];
   return (
